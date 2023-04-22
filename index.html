@@ -8,7 +8,7 @@
 <body class="bg-green-800">
     <section class="max-w-6xl mx-auto">
 
-        <nav class="md:flex md:justify-between items-center mt-5">
+        <nav class="lg:flex lg:justify-between items-center mt-5">
             <div class="flex items-center">
                 <div>
                     <a class="flex items-center">
@@ -17,9 +17,9 @@
                     </a>
                 </div>
                 <div class="ml-10 space-x-5 text-white text-lg">
-                    <a href="#">Intro</a>
-                    <a href="#">Features</a>
-                    <a href="#">Testimonials</a>
+                    <a href="#intro">Intro</a>
+                    <a href="#features">Features</a>
+                    <a href="#testimonials">Testimonials</a>
                 </div>
             </div>
     
@@ -31,7 +31,7 @@
 
         <main class="max-w-4xl mx-auto">
             
-            <section class="text-center mt-10 text-white">
+            <section id="intro" class="text-center mt-10 text-white">
                 <h6 class="text-sm font-semibold">Sales Gear</h6>
                 <h1 class="text-6xl font-bold">Gear Up for Sales</h1>
                 <p class="mt-5 text-lg"> As a retailer are you struggling to put together any data about your businesses performance ? crumbling under paperwork, invoices, and struggling to address issues from your customers and prospects ? </p>
@@ -41,26 +41,26 @@
                     <span class="font-bold">Tailor the product by sharing your expectations.</span><br>
                     Register now to be informed when Sales Gear launches and earn early subscriber perks.     
                 </p>
-                <div class="relative inline-block mx-auto rounded-full md:bg-gray-100 md:bg-opacity-10 md:border md:border-gray-300 mt-5 w-1/2">
-                    <!-- <form action="https://formsubmit.co/el/zipaka" method="post" class="md:flex md:justify-between py-1 px-1"> -->
-                    <form action="https://formsubmit.co/salesgearcm@gmail.com" method="post" class="md:flex md:justify-between py-1 px-1">
+                <div class="relative inline-block mx-auto rounded-full lg:bg-gray-100 lg:bg-opacity-10 lg:border lg:border-gray-300 mt-5 w-1/2">
+                    <!-- <form action="https://formsubmit.co/el/zipaka" method="post" class=lg:flex lg:justify-between py-1 px-1"> -->
+                    <form action="https://formsubmit.co/salesgearcm@gmail.com" method="post" class="lg:flex lg:justify-between py-1 px-1">
                         <div class="flex items-center">
-                            <label for="email" class="hidden md:inline-block ml-5">
+                            <label for="email" class="hidden lg:inline-block ml-5">
                                 <img src="./images/mailbox-icon.svg" alt="mailbox letter">
                             </label>
     
-                            <input id="email" name="email" type="text" placeholder="Your email address" class=" md:bg-transparent py-2 md:py-0 ml-5 focus-within:outline-none">
+                            <input id="email" name="email" type="text" placeholder="Your email address" class=" lg:bg-transparent py-2 lg:py-0 ml-5 focus-within:outline-none">
                         </div>
-                        <button type="submit" class="bg-white rounded-full bg-white md:px-12 md:py-5 px-5 py-1 text-black font-semibold mt-4 md:mt-0">Register</button>
+                        <button type="submit" class="bg-white rounded-full bg-white lg:px-12 lg:py-5 px-5 py-1 text-black font-semibold mt-4 lg:mt-0">Register</button>
                     </form>
                 </div>
                 
             </section>
 
-            <section class="text-center mt-20 text-white">
+            <section id="features" class="text-center mt-20 text-white">
                 <h1 class="text-6xl font-bold">Why Sales Gear ?!</h1>
                 
-                <div class="md:grid md:grid-cols-3 py-10 mt-10">
+                <div class="lg:grid lg:grid-cols-3 py-10 mt-10">
                     <article class="px-2 space-y-6 mt-10">
                         <span class="rounded-full bg-green-500 px-7 py-5 text-xl font-bold">1</span>
                         <h1 class="text-2xl font-semibold">Better Customer Management</h1>
@@ -86,10 +86,10 @@
                 
             </section>
 
-            <section class="mt-20">
+            <section id="testimonials" class="mt-20">
                 <h1 class="text-6xl font-bold text-white text-center">Testimonials</h1>
 
-                <div class="md:grid md:grid-cols-3 py-10 mt-15 md:space-x-5 mx-10">
+                <div class="lg:grid lg:grid-cols-3 py-10 mt-15 lg:space-x-5 mx-10">
 
                     <article class="bg-white rounded-lg flex flex-col justify-between mt-5">
                         <div class="px-5 py-5">
@@ -163,22 +163,19 @@
         </main>
     
         <footer class="flex items-center justify-between border-t border-gray-300 mt-10 mb-5 text-md pt-2 text-white text-center">
-            <div class="mx-auto space-x-10">
-                <span>E-mail : salesgearcm@gmail.com</span> <span>Tel : +237 6 51 46 07 43</span>
-            </div>
             
-            <!-- <div class="flex items-center">
+            
+            <div class="flex items-center">
                 <div class="space-x-5">
-                    <a href="#">Intro</a>
-                    <a href="#">Features</a>
-                    <a href="#">Testimonials</a>
+                    <a href="#intro">Intro</a>
+                    <a href="#features">Features</a>
+                    <a href="#testimonials">Testimonials</a>
                 </div>
             </div>
     
-            <div class="space-x-5">
-                <a href="#" class="px-5">Made by </a>
-                <a href="#" class="px-8">Designed by</a>
-            </div> -->
+            <div class="space-x-10">
+                <span>E-mail : salesgearcm@gmail.com</span> <span>Tel : +237 6 51 46 07 43</span>
+            </div>
         </footer>
 
     </section>
